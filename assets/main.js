@@ -7,3 +7,9 @@ function findTotal(){
     }
     document.getElementById('total').value = result;
 }
+
+function clearScreen(){
+
+    document.getElementById('total').value = ''
+
+}

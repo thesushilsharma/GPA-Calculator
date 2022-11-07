@@ -1,12 +1,12 @@
-function findTotal(){
-    var arr = document.getElementsByName('course');
-    var result=0;
-    for(var i=0;i<arr.length;i++){
-        if(parseInt(arr[i].value))
-            result += parseInt(arr[i].value);
-    }
-    document.getElementById('total').value = result;
-}
+// function findTotal(){
+//     var arr = document.getElementsByName('course');
+//     var result=0;
+//     for(var i=0;i<arr.length;i++){
+//         if(parseInt(arr[i].value))
+//             result += parseInt(arr[i].value);
+//     }
+//     document.getElementById('total').value = result;
+// }
 
 function clearScreen(){
 
@@ -15,7 +15,7 @@ function clearScreen(){
 }
 
 function add_subject() {
-    var parent = document.getElementById('wam_calculator');
+    var parent = document.getElementById('wam_input');
     var cnt = 0;
     for (var i = 0; i < parent.childNodes.length; i++) {
       if (parent.childNodes[i].className == 'dark:bg-slate-900') {

@@ -2,25 +2,25 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Grade Point Average Calculator">
-    <meta name="author" content="Sushil Sharma">
-    <meta name="keywords" content="Html, CSS, JS, GPA-Calculator, grade point average">
-    <title>The Sushil Sharma | GPA-Calculator</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- <link rel="stylesheet" href="assets/style.css"> -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Grade Point Average Calculator">
+  <meta name="author" content="Sushil Sharma">
+  <meta name="keywords" content="Html, CSS, JS, GPA-Calculator, grade point average">
+  <title>The Sushil Sharma | GPA-Calculator</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- <link rel="stylesheet" href="assets/style.css"> -->
 </head>
 
 <body>
-    <header>
-        <h2>GPA-Calculator</h2>
-        <small>Enter course name and Marks</small>
-    </header>
-    <main>
-        <section>
-            <!-- <article>
+  <header>
+    <h2>GPA-Calculator</h2>
+    <small>Enter course name and Marks</small>
+  </header>
+  <main>
+    <section>
+      <!-- <article>
                 Subject 1 : <input onblur="findTotal()" type="text" name="course" id="course1"><br>
                 Subject 2 : <input onblur="findTotal()" type="text" name="course" id="course2"><br>
                 Subject 3 : <input onblur="findTotal()" type="text" name="course" id="course3"><br>
@@ -33,41 +33,54 @@
                 Total : <input type="text" name="total" id="total">
                 <input type='button' value = 'Clear' onclick="clearScreen()" class="clear">
             </article> -->
-            <article>
-              <table class="table-fixed">
-                <thead>
-                  <tr >
-                    <th>Subject Code</th>
-                    <th>Credit</th>
-                    <th>Marks</th>
-                  </tr>
-                </thead>
-                <tbody id="wam_input">
-                  <tr class="dark:bg-slate-900">
-                    <td><label for="subject_0" class="sr-only"></label><input type="text" class="subject" id="subject_0"><span class="validate_subject">&nbsp;</span></td>
-                    <td><label for="credit_0" class="sr-only"></label><input type="text" class="credit" id="credit_0"><span class="validate_credit">&nbsp;</span></td>
-                    <td><label for="mark_0" class="sr-only"></label><input type="text" class="mark" id="mark_0"><span class="validate_mark">&nbsp;</span></td>
-                  </tr>
-                    <tr class="dark:bg-slate-900">
-                    <td><label for="subject_1" class="sr-only"></label><input type="text" class="subject" id="subject_1"><span class="validate_subject">&nbsp;</span></td>
-                    <td><label for="credit_1" class="sr-only"></label><input type="text" class="credit" id="credit_1"><span class="validate_credit">&nbsp;</span></td>
-                    <td><label for="mark_1" class="sr-only"></label><input type="text" class="mark" id="mark_1"><span class="validate_mark">&nbsp;</span></td>
-                  </tr>
-                    <tr class="dark:bg-slate-900">
-                    <td><label for="subject_2" class="sr-only"></label><input type="text" class="subject" id="subject_2"><span class="validate_subject">&nbsp;</span></td>
-                    <td><label for="credit_2" class="sr-only"></label><input type="text" class="credit" id="credit_2"><span class="validate_credit">&nbsp;</span></td>
-                    <td><label for="mark_2" class="sr-only"></label><input type="text" class="mark" id="mark_2"><span class="validate_mark">&nbsp;</span></td>
-                  </tr>
-                </tbody>
-              </table>
-              <button type="button" class="flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 focus:outline-none hover:bg-gray-700 rounded" onclick="add_subject()">ADD SUBJECT</button>
-              <div>
-                
-              </div>
-            </article>
-        </section>
-    </main>
-    <script src="assets/main.js"></script>
+      <article>
+        <table class="table-fixed">
+          <thead>
+            <tr>
+              <th>Subject Code</th>
+              <th>Credit</th>
+              <th>Marks</th>
+            </tr>
+          </thead>
+          <tbody id="wam_input">
+            <tr class="dark:bg-slate-900">
+              <td><label for="subject_0" class="sr-only"></label><input type="text" class="subject" id="subject_0"><span
+                  class="validate_subject">&nbsp;</span></td>
+              <td><label for="credit_0" class="sr-only"></label><input type="text" class="credit" id="credit_0"><span
+                  class="validate_credit">&nbsp;</span></td>
+              <td><label for="mark_0" class="sr-only"></label><input type="text" class="mark" id="mark_0"><span
+                  class="validate_mark">&nbsp;</span></td>
+            </tr>
+            <tr class="dark:bg-slate-900">
+              <td><label for="subject_1" class="sr-only"></label><input type="text" class="subject" id="subject_1"><span
+                  class="validate_subject">&nbsp;</span></td>
+              <td><label for="credit_1" class="sr-only"></label><input type="text" class="credit" id="credit_1"><span
+                  class="validate_credit">&nbsp;</span></td>
+              <td><label for="mark_1" class="sr-only"></label><input type="text" class="mark" id="mark_1"><span
+                  class="validate_mark">&nbsp;</span></td>
+            </tr>
+            <tr class="dark:bg-slate-900">
+              <td><label for="subject_2" class="sr-only"></label><input type="text" class="subject" id="subject_2"><span
+                  class="validate_subject">&nbsp;</span></td>
+              <td><label for="credit_2" class="sr-only"></label><input type="text" class="credit" id="credit_2"><span
+                  class="validate_credit">&nbsp;</span></td>
+              <td><label for="mark_2" class="sr-only"></label><input type="text" class="mark" id="mark_2"><span
+                  class="validate_mark">&nbsp;</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <button type="button"
+          class="flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 focus:outline-none hover:bg-gray-700 rounded"
+          onclick="add_subject()">ADD SUBJECT</button>
+        <br>
+        <button type="button"
+          class="flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 focus:outline-none hover:bg-gray-700 rounded"
+          onclick="calculator()">CALCULATE
+          WAM</button>
+      </article>
+    </section>
+  </main>
+  <script src="assets/main.js"></script>
 </body>
 
 </html>

@@ -22,6 +22,16 @@ function calculate() {
   var subject_validators = document.querySelectorAll(".validate_subject");
   var credit_validators = document.querySelectorAll(".validate_credit");
   var mark_validators = document.querySelectorAll(".validate_mark");
+
+  for (var i = 0; i < credits.length; i++) {
+    var subject = subjects[i].value;
+    var credit = credits[i].value;
+    var mark = marks[i].value;
+
+    var subject_validator = subject_validators[i];
+    var credit_validator = credit_validators[i];
+    var mark_validator = mark_validators[i];
+  }
 }
 
 function clearScreen() {

@@ -36,7 +36,7 @@ function calculate() {
 
 function clearScreen() {
 
-  document.getElementById('total').value = ''
+  document.getElementById("results").innerHTML = "";
 
 }
 

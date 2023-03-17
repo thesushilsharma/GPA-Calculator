@@ -1,8 +1,8 @@
-# GPA-Calculator
-To determine your grade point average (GPA) and to produce a GPA report, use this calculator.
+# WAM-Calculator
+To determine your Weighted average mark (WAM) and to produce a WAM report, use this calculator.
 
 ## Calculation
-The calculation used in the calculator:
+The calculation used in the WAM calculator:
 
 $$ Sum of (subject credit * mark)  \over sum of (subject credit) $$
 

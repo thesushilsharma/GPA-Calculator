@@ -1,5 +1,5 @@
-# WAM-Calculator
-To determine your Weighted average mark (WAM) and to produce a WAM report, use this calculator.
+# WAM ---> GPA Calculator
+To determine your Weighted average mark (WAM) and to produce a GPA report, use this calculator.
 
 ## Calculation
 The calculation used in the WAM calculator:

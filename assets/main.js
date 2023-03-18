@@ -9,7 +9,7 @@
 // }
 var flag;
 
-function calculate() {
+function calculator() {
   flag = true;
 
   var totalCredit = 0;
@@ -31,6 +31,8 @@ function calculate() {
     var subject_validator = subject_validators[i];
     var credit_validator = credit_validators[i];
     var mark_validator = mark_validators[i];
+
+    var results = document.getElementById("results");
   }
 }
 
@@ -56,3 +58,7 @@ function add_subject() {
     '</tr>';
   parent.insertAdjacentHTML('beforeend', newChild);
 }
+
+// Add event listener to generate button
+const generatewam = document.getElementById('generate-wam');
+generatewam.addEventListener('click', calculator);

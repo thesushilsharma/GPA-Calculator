@@ -10,7 +10,7 @@ $$ Sum of (subject credit * mark)  \over sum of (subject credit) $$
 
 | Grade	| WAM |	Description |	U.S. Grade | GPA |
 |-------|-----|-------------|------------|-----|
-| HD	| | 80-100    |	High Distinction |	A+ | 4.0 |
+| HD	| 80-100    |	High Distinction |	A+ | 4.0 |
 | D	| 75-79.9    |	Distinction |	A | 3.5 |
 | CR	| 70-74.9    | Credit |	B | 3.0 |
 | P	| 65-69.9    |	Pass |	C | 2.5 |

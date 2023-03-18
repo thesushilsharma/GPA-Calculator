@@ -9,7 +9,7 @@
 // }
 var flag;
 
-function calculator() {
+function calculateWAM() {
   flag = true;
 
   var totalCredit = 0;
@@ -60,5 +60,5 @@ function add_subject() {
 }
 
 // Add event listener to generate button
-const generatewam = document.getElementById('generate-wam');
-generatewam.addEventListener('click', calculator);
+const generateWAM = document.getElementById('generate-wam');
+generateWAM.addEventListener('click', calculateWAM);
